@@ -1,0 +1,139 @@
+body{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.principal{
+    margin: 50px auto;
+    width: 80%;
+    display: flex;
+    padding: 20px;
+    background: rgba(134, 234, 145, 0.5);
+    flex-wrap: wrap;
+}
+
+.parte0{
+    flex: 1;
+    text-align: center;
+}
+
+label{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.parte1{
+    text-align: center;
+    flex: 2;
+    padding: 25px;
+}
+
+input{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: aqua;
+    border: none;
+    cursor: default;
+}
+
+input:focus{
+    outline: none;
+}
+
+.parte1 .btn_detener{
+    margin: 10px 0;
+}
+
+.parte1 button{
+    margin: auto;
+    font-size: 20px;
+    border: 1px solid red;
+    border-radius: 1pc;
+    padding: 0 15px;
+    background: black;
+    color: snow;
+    font-weight: bold;
+}
+
+.parte2{
+    flex: 3;
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+    min-width: 50%;
+}
+
+.parte2 h2{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.parte2 .botones{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.parte2 button{
+    width: 20%;
+    margin: auto;
+    font-size: 20px;
+    border: 1px solid red;
+    border-radius: 1pc;
+    padding: 5px 15px;
+    background: black;
+    color: snow;
+    font-weight: bold;
+    min-width: 200px;
+}
+
+#normal:hover{
+    background: white;
+    color: black;
+}
+
+#navidad:hover{
+    background: green;
+    color: snow;
+}
+
+#halloween:hover{
+    background: orange;
+    color: white;
+}
+
+#sanValentin:hover{
+    background: red;
+    color: white;
+}
+
+#detener:hover{
+    background: white;
+    color: black;
+}
+
+#pascua:hover{
+    background: purple;/*linear-gradient(to right, red, blue, brown, green, lightblue, pink, lightgreen, purple);*/
+    color: black;
+}
+
+/*----------Footer----------*/
+
+footer{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.521);
+    padding: 40px;
+}
+
+.copyright{
+    color: snow;
+    font-size: 16px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.redes{
+    margin: 0 auto;
+}
