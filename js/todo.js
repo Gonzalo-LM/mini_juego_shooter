@@ -487,6 +487,7 @@ function arbol(xar, yar){
 function calabaza(xcal, ycal){
         //calabaza
         pincel.fillStyle = "orange";
+        pincel.strokeStyle = "orange";
         pincel.beginPath();
         pincel.ellipse(xcal - 10, ycal, 15, 20, 0, 0, 2 * 3.14);
         pincel.fill();
